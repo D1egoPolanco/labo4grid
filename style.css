@@ -1,0 +1,68 @@
+.grande {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+font-family:sans-serif ;
+
+}
+section p {
+    font-family: roboto;
+    color:#7f888f;
+}
+.Rubíbor{
+    margin: 1em;
+    background:white;
+    font:bold 20px Verdana;
+    text-decoration: none;
+    color:rgba(235, 111, 98, 1);
+    border: 2px solid rgba(235, 111, 98, 1);
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+a:hover{
+    background: Black;
+    color: cornflowerblue;
+}
+.bordersup{
+    height: 1px;
+    color: #f56a6a;
+    background-color: #f56a6a;
+    border:none
+}
+.borderpeque{
+    height: 8px;
+
+    color: #f56a6a;
+    background-color: #f56a6a;
+    border:none
+}
+i{
+color:#f56a6a;
+}
+.wrapper{
+    display:grid;
+    grid-template-columns: 50% 50%;
+       grid-gap:1em;
+}
+i{
+    justify-content: space-between;
+}
+.wrapper1{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-gap:1em;
+}
+.wrapper i{
+    margin-top: 65px;
+    text-align: center;
+    font-size: 3em;
+}
+body{
+    padding: 0px 100px 0px 100px;
+}
+.titulo{
+    border-bottom: 3px solid #f56a6a;
+    width:5.5em;
+    padding:1em ;
+}
